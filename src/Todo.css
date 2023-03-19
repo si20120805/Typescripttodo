@@ -1,0 +1,51 @@
+.todos{
+
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    color: brown;
+    flex-wrap: wrap;
+
+}
+
+
+.todosingle{
+
+
+    display: flex;
+    width: 30%;
+    padding: 20px;
+    margin-top: 15px;
+    background-color: yellow;
+    justify-content: space-between;
+}
+
+.todosingletext{
+
+    flex: 1;
+    padding: 5px;
+}
+
+.icons{
+    
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+
+@media (max-width:700px){
+
+    .input {
+        width:95%
+    }
+    .todos{
+        width: 95%;
+
+    }
+    .todosingle{
+
+        width: 100%;
+    }
+
+}
